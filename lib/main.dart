@@ -3,6 +3,7 @@ import 'pages/home_page.dart';
 import 'pages/news_page.dart';
 import 'pages/majalah_page.dart';
 import 'pages/profile_page.dart';
+import 'pages/splash_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.blue,
         ),
       ),
-      home: MainPage(),
+      home: SplashPage(),
     );
   }
 }
